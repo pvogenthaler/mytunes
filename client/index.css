@@ -1,0 +1,39 @@
+body{
+  background-color: lightblue;
+  font: 300 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 20px auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+html, body{
+  height: 100%;
+}
+html {
+  display: table;
+  margin: auto;
+}
+h1{
+  font-size: 36px;
+  text-align: center;
+  font-weight: normal;
+}
+
+
+audio {
+  display: block;
+  margin: 20px auto 20px;
+  width: 100%;
+}
+
+.libSongs, .libArtists, .queueSongs, .queueArtists {
+  margin: 0px 35px 0 0;
+  padding: auto
+}
+.libSongs:hover, .queueSongs:hover {
+  cursor: pointer;
+  color: grey;
+}
+.libTitle, .queueTitle {
+  font-size: 26px;
+  font-weight: normal;
+}

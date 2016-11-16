@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <body>
-    <!-- Scripts may be placed anywhere on a page. But FYI, they block rendering of elements
-     below them until after the scripts load-->
+  <head>
+    <title>my tunes</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
     <script src="bower_components/jquery/jquery.min.js"></script>
     <script src="bower_components/underscore/underscore.js"></script>
     <script src="bower_components/backbone/backbone.js"></script>
@@ -22,6 +24,13 @@
     
     <script src="views/SongQueueEntryView.js"></script>
     <script src="views/SongQueueView.js"></script>
+  </head>
+  <body>
+    <!-- Scripts may be placed anywhere on a page. But FYI, they block rendering of elements
+     below them until after the scripts load-->
+    <h1>my tunes</h1>
+<!--     <div class="library">Library</div>
+    <div class="songQueue">Song Queue</div> -->
 
     <script>
       $(function() {
